@@ -1,0 +1,41 @@
+
+.header {
+    background-color: #82ae46;
+}
+
+.topbar {
+    height: 35px;
+    background-color: #82ae46;
+    font-size: 0.8em;
+}
+
+.navbar {
+    margin-top: -20px;
+}
+
+
+/* p {
+    padding-bottom: 180px;
+} */
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+  
+
+  .buttonCustom{
+    color: white;
+    background-color: #82ae46; 
+    border: 1px solid #82ae46;
+    border-radius: 25px;
+    margin-bottom: 30%;
+    padding: 1%;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }

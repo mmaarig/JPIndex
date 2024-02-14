@@ -1,0 +1,120 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;    
+}
+
+nav {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-radius: 25px;
+    background-color: #1783ff;
+    color: rgb(255, 255, 255);
+}
+
+/* nav a:active {
+    background-color: #1900ff;
+    color: rgb(255, 255, 255);
+} */
+
+.logo {
+    margin: 0% 0% 0% 45%;
+    font-weight: 600;   
+}
+
+.nav1 {
+    margin: 0% 0% 0% 8%;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    padding: 0 10px;
+    margin: 30px 0px 0px 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  button {
+    width: 5%;
+  }
+  .card {
+    height: 300px;
+    overflow-y: hidden;
+  }  
+
+  .heading {
+    font-weight: 700;
+  }
+
+  p {
+    margin: 20px 0px 20px 0px;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    line-height: 1.6;
+ }
+
+ .footerContent {
+    width: 40%;
+    margin: 1% 0% 3% 30%;
+    padding: 0% 0% 0% 0%;
+ }
+ i {
+  margin: 0px 10px 0px 0px;
+}
+
+a { text-decoration: none; 
+    color: inherit;
+}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+  /* Responsive columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+

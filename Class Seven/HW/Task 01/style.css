@@ -1,0 +1,128 @@
+body {
+    background-color: #f2fcfd;
+}
+#top{
+    display: flex;
+}
+#name{
+    color: black;
+    width: 65%;
+    padding-left: 5%;
+}
+
+.name {
+    text-align: right;
+    width: 20%;
+    padding-right: 1%;
+    padding-top: 2%;
+}
+
+button {
+    background-color: rgba(73, 53, 53, 0.733);
+    color: #ffffff;
+    width: 160px;
+    height: 25px;
+}
+
+span {
+    margin-left: -50px;
+}
+
+a {
+
+    color: rgb(197, 11, 11);
+}
+
+.contact {
+    margin-right: 55px;
+    margin-top: 5px;
+}
+
+.web {
+    margin-top: -15px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.profile-container{
+    display: flex;
+}
+#Profileheading {
+    width: 10%;
+    text-align: left;
+    margin-right: 1%;
+    margin-left: 8%;
+}
+.subheading-Profile {
+    width: 60%;
+}
+
+
+
+.skill-container{
+    display: flex;
+}
+#Skillsheading {
+    width: 10%;
+    text-align: left;
+    margin-right: 1%;
+    margin-left: 8%;
+}
+.subheading-Skills{
+    column-gap: 5%;
+    display: flex;
+    width: 60%;
+}
+
+.technical-container{
+    display: flex;
+}
+#Technicalheading {
+    width: 10%;
+    text-align: left;
+    margin-right: 1%;
+    margin-left: 8%;
+}
+
+.col1{
+    width: 18%
+}
+.col2{
+    width: 18%
+}
+.col3{
+    width: 18%
+}
+
+
+
+.Experience-Container{
+    display: flex;
+
+}
+
+#Experienceheading {
+    display:flex;;
+    width: 1%;
+    text-align: left;
+    margin-left: 8%;
+}
+.subheading-Experience{
+    display: flex;
+    flex-direction: column;
+}
+.Experience{
+    width: 65%;
+    margin-left: 11%;
+}
+
+.years {
+    margin-left: 85%;
+    margin-top: -5%;
+}
+
+hr{
+    width: 85%;
+    margin-left: 5%;
+
+}  

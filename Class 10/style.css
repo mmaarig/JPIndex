@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(213, 255, 255);
+}
+
+.container {
+    text-align: center;
+    border: 3px solid rgb(0, 104, 99);
+    padding: 5%;
+}
+
+#userName, #email {
+    width: 30%;
+    margin: 0% 0% 0% 1%;
+    background-color: rgb(255, 249, 241);
+    font-size: 20px;
+}
+.form {
+    margin: 50px 0px 0px 0px;
+    
+}
+
+.textArea {
+    width: 100%;
+    margin: 1% 0% 0% 0%;
+    background-color: rgb(255, 249, 241);
+    font-size: 20px;
+}
+
+.submit {
+    width: 20%;
+}
+
+
